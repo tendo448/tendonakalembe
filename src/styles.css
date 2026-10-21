@@ -163,4 +163,7 @@
   .link { color: var(--primary); text-decoration: underline; }
   .btn-primary { display: inline-block; background: var(--primary); color: var(--primary-foreground); padding: 0.85rem 1.6rem; border-radius: 999px; font-weight: 700; word-break: break-all; }
   .btn-primary:hover { opacity: 0.9; }
+  .availability { display: inline-flex; align-items: center; gap: 0.55rem; background: oklch(0.36 0.11 20 / 0.08); border: 1px solid var(--primary); color: var(--primary); padding: 0.4rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.9rem; }
+  .availability::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 999px; background: var(--primary); }
+
 }

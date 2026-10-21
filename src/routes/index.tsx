@@ -46,7 +46,9 @@ function Index() {
             <p className="eyebrow">Academic Portfolio</p>
             <h1 className="font-display mt-3 text-5xl leading-tight md:text-6xl">Nakalembe Daniella Tendo</h1>
             <p className="mt-5 text-lg text-muted-foreground">Computer Science student at Uganda Christian University, building toward a career in web development and cybersecurity.</p>
+            <p className="availability mt-6">Open to collaborations and internships</p>
             <a href="#contact" className="btn-primary mt-8">Get in touch</a>
+
           </div>
         </div>
 
@@ -95,8 +97,10 @@ function Index() {
 
         <Section id="contact" title="Contact Me">
           <p>Thank you for visiting my portfolio.</p>
+          <p>I am open to collaborations and internships. If you have a project, a placement, or an idea worth working on, I would be glad to hear from you.</p>
           <p>For academic enquiries or professional communication, please contact me at:</p>
           <a className="btn-primary" href={`mailto:${EMAIL}`}>{EMAIL}</a>
+
         </Section>
       </main>
 

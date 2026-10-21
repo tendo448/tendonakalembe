@@ -18,6 +18,8 @@ export const Route = createFileRoute("/")({
 const EMAIL = "tendonakalembe831@gmail.com";
 const GITHUB_HANDLE = "tendo448";
 const GITHUB_URL = `https://github.com/${GITHUB_HANDLE}`;
+const LINKEDIN_HANDLE = "tendo-nakalembe-58063b2b1";
+const LINKEDIN_URL = `https://www.linkedin.com/in/${LINKEDIN_HANDLE}`;
 
 
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
@@ -97,6 +99,7 @@ function Index() {
           <h3 className="cv-h">Professional Contact</h3>
           <p>Email: <a className="link" href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
           <p>GitHub: <a className="link" href={GITHUB_URL} target="_blank" rel="noreferrer">github.com/{GITHUB_HANDLE}</a></p>
+          <p>LinkedIn: <a className="link" href={LINKEDIN_URL} target="_blank" rel="noreferrer">linkedin.com/in/{LINKEDIN_HANDLE}</a></p>
 
         </Section>
 
@@ -107,6 +110,7 @@ function Index() {
           <div className="flex flex-wrap gap-3">
             <a className="btn-primary" href={`mailto:${EMAIL}`}>{EMAIL}</a>
             <a className="btn-outline" href={GITHUB_URL} target="_blank" rel="noreferrer">GitHub: {GITHUB_HANDLE}</a>
+            <a className="btn-outline" href={LINKEDIN_URL} target="_blank" rel="noreferrer">LinkedIn: Tendo Nakalembe</a>
           </div>
 
 

@@ -4,9 +4,9 @@ import photo from "@/assets/daniella.jpg.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nakalembe Daniella Tendo — Academic Portfolio" },
+      { title: "Nakalembe Daniella Tendo — Portfolio" },
       { name: "description", content: "Computer Science student at Uganda Christian University, focused on web development and cybersecurity." },
-      { property: "og:title", content: "Nakalembe Daniella Tendo — Academic Portfolio" },
+      { property: "og:title", content: "Nakalembe Daniella Tendo — Portfolio" },
       { property: "og:description", content: "Computer Science student at UCU, focused on web development and cybersecurity." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -43,7 +43,7 @@ function Index() {
         <div className="grid items-center gap-10 py-16 md:grid-cols-[1fr_1.1fr]">
           <img src={photo.url} alt="Nakalembe Daniella Tendo at Bishop Tucker Building, UCU" className="portrait" />
           <div>
-            <p className="eyebrow">Academic Portfolio</p>
+            <p className="eyebrow">Portfolio</p>
             <h1 className="font-display mt-3 text-5xl leading-tight md:text-6xl">Nakalembe Daniella Tendo</h1>
             <p className="mt-5 text-lg text-muted-foreground">Computer Science student at Uganda Christian University, building toward a career in web development and cybersecurity.</p>
             <p className="availability mt-6">Open to collaborations and internships</p>

@@ -62,7 +62,7 @@ function Index() {
 
         <Section id="education" title="Education and Skills">
           <p>I am currently at Uganda Christian University pursuing my Bachelor of Science in Computer Science, developing my understanding of computing and technology.</p>
-          <p>I am currently using the C programming language, which I keep perfecting daily to improve my ability in programming and get better at the fundamentals.</p>
+          <p>I am skilled in the C and Python programming languages, and I keep practising daily to improve my ability in programming and get better at the fundamentals.</p>
           <p>I am also familiar with data enumeration and basic computer fundamentals that I continue practising and improving as I progress in my studies.</p>
         </Section>
 
@@ -88,7 +88,7 @@ function Index() {
             <li><span>2012–2018</span>Lohana Primary School (Primary Leaving Examinations)</li>
           </ul>
           <h3 className="cv-h">Skills</h3>
-          <div className="flex flex-wrap gap-2"><span className="chip">C programming</span><span className="chip">Data enumeration</span></div>
+          <div className="flex flex-wrap gap-2"><span className="chip">C programming</span><span className="chip">Python</span><span className="chip">Data enumeration</span></div>
           <h3 className="cv-h">Projects</h3>
           <p>Campus Care Appointment Management System — planned academic project</p>
           <h3 className="cv-h">Professional Contact</h3>

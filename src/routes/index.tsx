@@ -16,6 +16,9 @@ export const Route = createFileRoute("/")({
 });
 
 const EMAIL = "tendonakalembe831@gmail.com";
+const GITHUB_HANDLE = "tendo448";
+const GITHUB_URL = `https://github.com/${GITHUB_HANDLE}`;
+
 
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
   return (
@@ -93,13 +96,19 @@ function Index() {
           <p>Campus Care Appointment Management System — planned academic project</p>
           <h3 className="cv-h">Professional Contact</h3>
           <p>Email: <a className="link" href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
+          <p>GitHub: <a className="link" href={GITHUB_URL} target="_blank" rel="noreferrer">github.com/{GITHUB_HANDLE}</a></p>
+
         </Section>
 
         <Section id="contact" title="Contact Me">
           <p>Thank you for visiting my portfolio.</p>
           <p>I am open to collaborations and internships. If you have a project, a placement, or an idea worth working on, I would be glad to hear from you.</p>
           <p>For academic enquiries or professional communication, please contact me at:</p>
-          <a className="btn-primary" href={`mailto:${EMAIL}`}>{EMAIL}</a>
+          <div className="flex flex-wrap gap-3">
+            <a className="btn-primary" href={`mailto:${EMAIL}`}>{EMAIL}</a>
+            <a className="btn-outline" href={GITHUB_URL} target="_blank" rel="noreferrer">GitHub: {GITHUB_HANDLE}</a>
+          </div>
+
 
         </Section>
       </main>
